@@ -1,0 +1,162 @@
+@media (max-width: 1024px) {
+    #load img{
+      width: 15%;
+      margin-top: 40%;
+    }
+    .nav2 a{
+      font-size: 1rem;
+      margin-left: 1rem;
+      display: inline;  
+    }
+    .main{
+      width: 100%;
+    }
+    .car{
+      width: 95%;
+      float: left;
+      margin:2.5%;
+    }
+    .car img{
+      width: 100%; 
+    }
+    .price{
+      font-size: 2rem;
+      display: block;
+      box-shadow: none;
+      font-weight: 700;
+    }
+    .info2{
+      text-align: left;
+      display: block;
+      font-size: 2rem;
+    }
+    .info2 img{
+      height: 2rem;
+      width: auto;
+    }
+    .min img{
+      width: 25%;
+      margin:0;
+      padding: 0;
+    }
+    .car h1{
+      font-size: 3rem;
+    }
+    .contact-main a{
+      font-size: 2rem;
+      font-weight: 700;
+      display: block;  
+    }
+    .contact-main img{
+      width: 5%;
+    }
+    .contact-info{
+     
+      width: 100%;
+      margin-right: 0;
+      margin-left: 0;
+      border: 0;
+      padding-left: 0;  
+    }
+    .contact-info h3{
+      font-size: 2rem;
+      text-align: justify;
+      line-height: 30px;
+      color: rgb(134, 134, 134);
+      margin-left: 2rem;
+    }
+    .contact-info-right{ 
+      padding-left: 2rem;
+      width: 100%;
+      padding-left: 0;
+      text-align: center;
+    }
+    .contact-info-left{
+      width: 100%;
+      margin-left: 0;
+    }
+    .price-cal{
+      width: 100%;   
+      margin-top: 10%;
+    }
+    .box{
+      width: 100%;
+      text-align: center;
+    }
+    .box input,select{
+      font-size: 2rem;
+      width: 50%;
+    }
+    #result{
+      height: 30vh;  
+    }
+    .cont-info{
+      float: left;
+      width: 60%;
+      margin: 2.5%;
+    }
+    .car2x{
+      width: 95%;
+      margin:2.5%;
+    }
+    .car2x img{
+      width: 100%;
+    }
+    .cars2x{
+      text-align: center;
+      width: 100%;
+      color: white;
+      padding-top: 0;
+      height: 64vh;
+    }
+    .min2x img{
+      width: 25%;
+      margin:0;
+      padding: 0;
+    }
+    .cont-info{ 
+      width: 92%;
+      margin: 4%;
+    }
+    .info3{ 
+      display: block;
+      font-size: 2rem;
+      float: left;
+      width: 100%;
+      padding: 1rem;
+    }
+    .info3 img{
+      height: 2rem;
+      width: auto;
+    }
+  }
+  @media (max-width: 1650px) {
+    .price-cal{
+      width: 100%;   
+      margin-top: 10%;
+    }
+    .box{
+      width: 100%;
+      text-align: center;
+    }
+    .box input,select{
+      font-size: 2rem;
+      width: 50%;
+    }
+    #result{
+      height: 20vh;  
+    }
+    .info3{
+      display: block;
+      font-size: 2rem;
+      float: left;
+      width: 100%;
+      padding: 1rem;
+    }
+    .info3 img{
+      height: 2rem;
+      width: auto;
+    }
+  }
+  
+  

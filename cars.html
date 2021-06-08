@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Wypożyczalnia Samochodów</title>
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/png" href="img/ico.png">
+      <link rel="stylesheet" href="css/animations.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/mobile.css">
+      <link rel="stylesheet" href="css/laptop.css">
+      <script src="JS/loader.js" type="text/javascript"></script>
+      <script src="JS/menu.js" type="text/javascript"></script>
+      <script src="JS/min-cars.js" type="text/javascript"></script>
+  </head>
+  <body  onload="loading()">
+    <div id="load">
+        <img src="img/logo.png">
+    </div>
+    <div class="contact">
+      <a href="tel:999999999"><img src="img/phone-call.png"> 621 524 123</a>
+      <a class="social" href=""><img src="img/facebook.png"/></a>
+      <a class="social"  href=""><img src="img/instagram.png"/></a>
+    </div>
+    <div class="contener">
+      <nav class="navigation">
+        <img class="logo" src="img/logo.png">
+        <button class="openbtn" onclick="openNav()">
+          <img src="img/menu.png"></button>
+            <div class="nav2">
+                  <a href="index.html">Home</a>
+                  <a class="focus" href="cars.html">Flota</a>
+                  <a href="contact.html">Kontakt</a>
+                  <a href="calculator.html">Kalkulator</a></nav>
+                </div>
+                <div id="menu" class="nav">
+                  <a href="index.html">Home</a>
+                  <a class="focus" href="cars.html">Flota</a>
+                  <a href="contact.html">Kontakt</a>
+                  <a href="calculator.html">Kalkulator</a>
+              <button class="closebtn" onclick="closeNav()"><img src="img/close.png"></button>
+                  <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+                  from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+           </div>  
+           </div>  
+      <div class="banner">
+        <div class="banner-info">
+          <h1>Flota</h1>
+        </div>
+      </div> 
+      <div class="cars">
+        <div class="car">
+           <h1>Audi A5</h1>
+              <img id="audi" src="img/cars/audi1.png"/>
+                 <div class="min">
+                    <img onclick="imgAudi1()"  src="img/cars/audi1.png"/>
+                    <img onclick="imgAudi2()"  src="img/cars/audi2.png"/>
+                    <img onclick="imgAudi3()"  src="img/cars/audi3.png"/>
+                 </div>
+                  <span class="price">1300,00 PLN / 24h</span>
+                  <span class="info2"><img src="img/hp.png"> 204KM</span>
+                  <span class="info2"><img src="img/fuel.png"> Benzyna</span>
+                  <span class="info2"><img src="img/car-door.png"> 5</span>
+                  <a href="audi.html"><img src="img/more.png"></a>    
+      </div>
+      <div class="car">
+        <h1>Mazda 6</h1>
+          <img id="mazda" src="img/cars/mazda1.png"/>
+            <div class="min">
+              <img onclick="imgMazda1()"  src="img/cars/mazda1.png"/>
+              <img onclick="imgMazda2()"  src="img/cars/mazda2.png"/>
+              <img onclick="imgMazda3()"  src="img/cars/mazda3.png"/>
+            </div>
+            <span class="price">550,00 PLN / 24h</span>
+            <span class="info2"><img src="img/hp.png"> 165KM</span>
+            <span class="info2"><img src="img/fuel.png"> Benzyna</span>
+            <span class="info2"><img src="img/car-door.png"> 5</span>
+            <a href="mazda.html"><img src="img/more.png"></a>    
+      </div>
+      <div class="car">
+        <h1>McLaren 570 GT</h1>
+          <img id="mcLaren" src="img/cars/mclaren1.png"/>
+            <div class="min">
+              <img onclick="imgMclaren1()"  src="img/cars/mclaren1.png"/>
+              <img onclick="imgMclaren2()"  src="img/cars/mclaren2.png"/>
+              <img onclick="imgMclaren3()"  src="img/cars/mclaren3.png"/>
+            </div>
+            <span class="price">3500,00 PLN / 24h</span>
+            <span class="info2"><img src="img/hp.png"> 570KM</span>
+            <span class="info2"><img src="img/fuel.png"> Benzyna</span>
+            <span class="info2"><img src="img/car-door.png"> 2</span>
+            <a href="mclaren.html"><img src="img/more.png"></a>    
+      </div>
+      <div class="car">
+        <h1>Mercedes S500</h1>
+          <img id="mercedesS" src="img/cars/mercedes-s1.png"/>
+            <div class="min">
+              <img onclick="imgMercedess1()"  src="img/cars/mercedes-s1.png"/>
+              <img onclick="imgMercedess2()"  src="img/cars//mercedes-s2.png"/>
+              <img onclick="imgMercedess3()"  src="img/cars/mercedes-s3.png"/>
+            </div>
+            <span class="price">1650,00 PLN / 24h</span>
+            <span class="info2"><img src="img/hp.png"> 456KM</span>
+            <span class="info2"><img src="img/fuel.png"> Benzyna</span>
+            <span class="info2"><img src="img/car-door.png"> 4</span>
+            <a href="mercedesS.html"><img src="img/more.png"></a>    
+      </div>
+      <div class="car">
+        <h1>Ford Mustang 5.0</h1>
+          <img id="ford" src="img/cars/mustang1.png"/>
+            <div class="min">
+              <img onclick="imgFord1()"  src="img/cars/mustang1.png"/>
+              <img onclick="imgFord2()"  src="img/cars/mustang2.png"/>
+              <img onclick="imgFord3()"  src="img/cars/mustang3.png"/>
+            </div>
+            <span class="price">1150,00 PLN / 24h</span>
+            <span class="info2"><img src="img/hp.png"> 412KM</span>
+            <span class="info2"><img src="img/fuel.png"> Benzyna</span>
+            <span class="info2"><img src="img/car-door.png"> 3</span>
+            <a href="ford.html"><img src="img/more.png"></a>    
+      </div>
+      <div class="car">
+        <h1>Dodge Charger</h1>
+          <img id="dodge" src="img/cars/dodge1.png"/>
+            <div class="min">
+              <img onclick="imgDodge1()"  src="img/cars/dodge1.png"/>
+              <img onclick="imgDodge2()"  src="img/cars/dodge2.png"/>
+              <img onclick="imgDodge3()"  src="img/cars/dodge3.png"/>
+            </div>
+            <span class="price">1250,00 PLN / 24h</span>
+            <span class="info2"><img src="img/hp.png"> 492KM</span>
+            <span class="info2"><img src="img/fuel.png"> Benzyna</span>
+            <span class="info2"><img src="img/car-door.png"> 5</span>
+            <a href="dodge.html"><img src="img/more.png"></a>    
+      </div>
+      <div class="car">
+        <h1>Lamborghini Gallardo</h1>
+          <img id="lambo" src="img/cars/lambo1.png"/>
+            <div class="min">
+              <img onclick="imgLambo1()"  src="img/cars/lambo1.png"/>
+              <img onclick="imgLambo2()"  src="img/cars/lambo2.png"/>
+              <img onclick="imgLambo3()"  src="img/cars/lambo3.png"/>
+            </div>
+            <span class="price">5000,00 PLN / 24h</span>
+            <span class="info2"><img src="img/hp.png"> 550KM</span>
+            <span class="info2"><img src="img/fuel.png"> Benzyna</span>
+            <span class="info2"><img src="img/car-door.png"> 2</span>
+            <a href="lamborghini.html"><img src="img/more.png"></a>
+      </div>
+      <div class="car">
+        <h1>Mercedes GT</h1>
+          <img id="mercedesGt" src="img/cars/mercedes-gt1.png"/>
+            <div class="min">
+              <img onclick="imgMercedesgt1()"  src="img/cars/mercedes-gt1.png"/>
+              <img onclick="imgMercedesgt2()"  src="img/cars/mercedes-gt2.png"/>
+              <img onclick="imgMercedesgt3()"  src="img/cars/mercedes-gt3.png"/>
+            </div>
+            <span class="price">2650,00 PLN / 24h</span>
+            <span class="info2"><img src="img/hp.png"> 560KM</span>
+            <span class="info2"><img src="img/fuel.png"> Benzyna</span>
+            <span class="info2"><img src="img/car-door.png"> 3</span>
+            <a href="mercedesGt.html"><img src="img/more.png"></a>    
+      </div>  
+    </div>
+    </div>
+    
+  </body>
+</html>

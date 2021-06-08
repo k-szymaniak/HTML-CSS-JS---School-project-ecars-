@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Wypożyczalnia Samochodów</title>
+      
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/png" href="img/ico.png">
+      <link rel="stylesheet" href="css/animations.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/mobile.css">
+      <link rel="stylesheet" href="css/laptop.css">
+      <script src="JS/loader.js" type="text/javascript"></script>
+      <script src="JS/menu.js" type="text/javascript"></script>
+      <script src="JS/min-cars.js" type="text/javascript"></script>
+      <script src="JS/cal.js" type="text/javascript"></script>
+  </head>
+  <body  onload="loading()">
+    <div id="load">
+        <img src="img/logo.png">
+    </div>
+    <div class="contact">
+      <a href="tel:999999999"><img src="img/phone-call.png"> 621 524 123</a>
+      <a class="social" href=""><img src="img/facebook.png"/></a>
+      <a class="social"  href=""><img src="img/instagram.png"/></a>
+    </div>
+    <div class="contener">
+      <nav class="navigation">
+        <img class="logo" src="img/logo.png">
+        <button class="openbtn" onclick="openNav()">
+          <img src="img/menu.png"></button>
+            <div class="nav2">
+                  <a href="index.html">Home</a>
+                  <a href="cars.html">Flota</a>
+                  <a href="contact.html">Kontakt</a>
+                  <a class="focus" href="calculator.html">Kalkulator</a></nav>
+                </div>
+                <div id="menu" class="nav">
+                  <a href="index.html">Home</a>
+                  <a href="cars.html">Flota</a>
+                  <a href="contact.html">Kontakt</a>
+                  <a class="focus" href="calculator.html">Kalkulator</a>
+              <button class="closebtn" onclick="closeNav()"><img src="img/close.png"></button>
+                  <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+                  from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+           </div>  
+           </div>  
+      <div class="banner">
+        <div class="banner-info">
+          <h1>Kalkulator</h1>
+        </div>
+      </div> 
+      <div class="container">
+      <div class="price-cal">
+        <div class="mainbox">
+          <div class="box">
+            
+                <select id="option" name="cars" id="cars">
+                    <option value="0">Audi A5</option>
+                    <option value="1">Mazda 6</option>
+                    <option value="2">McLaren 570 GT</option>
+                    <option value="3">Mercedes S500</option>
+                    <option value="4">Ford Mustang 5.0</option>
+                    <option value="5">Dodge Charger</option>
+                    <option value="6">Lamborghini</option>
+                    <option value="7">Mercedes GT</option>   
+                </select>
+            </div>
+            <div class="box">
+            
+                <input id="startDate"  type="date">
+            </div>
+            <div class="box"> 
+            
+                <input id="endDate" type="date">
+            </div>
+            <div class="box">
+            <input onclick="cal()" class="btn" value="Cena" type="submit">
+        </div>
+    </div>
+    </div>
+  </div>
+        <div id="result">Proszę wypełnić wymagane pola!</div>
+        
+    </div>
+    
+  </body>
+</html>

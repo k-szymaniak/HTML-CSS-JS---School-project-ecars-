@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Wypożyczalnia Samochodów</title>
+      <link rel="stylesheet" href="style.css" type="text/css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/png" href="img/ico.png">
+      <link rel="stylesheet" href="css/animations.css">
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="stylesheet" href="css/mobile.css">
+      <link rel="stylesheet" href="css/laptop.css">
+      <script src="JS/loader.js" type="text/javascript"></script>
+      <script src="JS/menu.js" type="text/javascript"></script>
+      <script src="JS/min-cars.js" type="text/javascript"></script>
+  </head>
+  <body  onload="loading()">
+    <div id="load">
+        <img src="img/logo.png">
+    </div>
+    <div class="contact">
+      <a href="tel:999999999"><img src="img/phone-call.png"> 621 524 123</a>
+      <a class="social" href=""><img src="img/facebook.png"/></a>
+      <a class="social"  href=""><img src="img/instagram.png"/></a>
+    </div>
+    <div class="contener">
+      <nav class="navigation">
+        <img class="logo" src="img/logo.png">
+        <button class="openbtn" onclick="openNav()">
+          <img src="img/menu.png"></button>
+            <div class="nav2">
+                  <a href="index.html">Home</a>
+                  <a href="cars.html">Flota</a>
+                  <a href="contact.html">Kontakt</a>
+                  <a href="calculator.html">Kalkulator</a></nav>
+                </div>
+                <div id="menu" class="nav">
+                  <a href="index.html">Home</a>
+                  <a href="cars.html">Flota</a>
+                  <a href="contact.html">Kontakt</a>
+                  <a href="calculator.html">Kalkulator</a>
+              <button class="closebtn" onclick="closeNav()"><img src="img/close.png"></button>
+                  <!-- <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+                  from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>-->
+           </div>  
+           </div>  
+      <div class="banner">
+        <div class="banner-info">
+          <h1>Dodge Charger</h1>
+        </div>
+      </div> 
+      <div class="cars2x">
+        <div class="car2x">
+          
+            <img id="dodge" src="img/cars/dodge1.png"/>
+            <div class="min2x">
+              <img onclick="imgDodge1()"  src="img/cars/dodge1.png"/>
+              <img onclick="imgDodge2()"  src="img/cars/dodge2.png"/>
+              <img onclick="imgDodge3()"  src="img/cars/dodge3.png"/>
+                 </div>
+                </div>
+                <div class="cont-info">
+                <div class="text"><h1><span>Dodge Charger</span> 2.5 T 492 KM 2016 Gotowe do wynajęcia, Oblicz cenę wynajmu klikając w ten <a href="calculator.html">link</a> <br>(powyżej 30 dni wynajmu -5%, a powyżej 60 dni -10%).
+                  Zapraszamy do kontaktu.</h1></div> 
+                <div class="car-short">
+                  <span class="info3"><img src="img/hp.png"> 492KM</span>
+                  <span class="info3"><img src="img/fuel.png"> Benzyna</span>
+                  <span class="info3"><img src="img/manual-transmission.png"> Automat</span>
+                  <span class="info3"><img src="img/seat.png"> 5 osobowy</span>
+                  <span class="info3"><img src="img/snowflake.png"> Klimatyzacja</span>
+                  <span class="info3"><img src="img/car-door.png"> 5 drzwiowy</span>
+
+                </div>
+                
+              </div>
+            </div>
+                
+              
+    
+  </body>
+</html>
